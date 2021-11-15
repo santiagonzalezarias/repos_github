@@ -1,0 +1,72 @@
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    box-shadow: 1px 1px 20px 1px rgb(180, 180, 180);
+    border-radius: 10px;
+}
+
+.repositories-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.repository-container{
+    width: 350px;
+    background: #e2e2e2;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 10px;
+
+}
+
+.repository-container h3 span {
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 6px;
+    color: black;
+}
+
+.repository-container h3 {
+    color: royalblue;
+}
+
+.repository-container button {
+    margin: 10px
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.logout {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.alert {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
